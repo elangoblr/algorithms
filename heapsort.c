@@ -55,7 +55,7 @@ void myheapsort(int *a, int n){
 	 * After the above forloop, we have the maximum element in the index
 	 * zero. Move that element to the end, remember we are sorting the
 	 * array ascending; max is moved to last. Once the element is moved to
-	 * last, do a heapify from o until n-1 and so on. We will have sorted
+	 * last, do a heapify from 0 until n-1 and so on. We will have sorted
 	 * array.
 	 */
 	for (int i = n - 1; i >= 0; i--){
